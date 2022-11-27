@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify user can send message sucessfully",
+        "description": "",
+        "id": "this-is-a-demoblaze-contact-functionality;verify-user-can-send-message-sucessfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2394558200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch Application Url",
+            "match": {
+              "location": "DemoContact.launch_Application_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131268200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Contact",
+            "match": {
+              "location": "DemoContact.click_on_Contact()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 228135799,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Contact Email",
+            "match": {
+              "location": "DemoContact.enter_Contact_Email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63978100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Contact Name",
+            "match": {
+              "location": "DemoContact.enter_Contact_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128765400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Type message",
+            "match": {
+              "location": "DemoContact.type_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3216330900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Send Message",
+            "match": {
+              "location": "DemoContact.click_on_Send_Message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Verify user can send message sucessfully",
+        "description": "",
+        "id": "this-is-a-demoblaze-contact-functionality;verify-user-can-send-message-sucessfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1657007699,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Launch Application Url",
+            "match": {
+              "location": "DemoContact.launch_Application_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84642700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Contact",
+            "match": {
+              "location": "DemoContact.click_on_Contact()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 210132500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter Contact Email",
+            "match": {
+              "location": "DemoContact.enter_Contact_Email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73358400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter Contact Name",
+            "match": {
+              "location": "DemoContact.enter_Contact_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83156599,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Type message",
+            "match": {
+              "location": "DemoContact.type_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3174301399,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on Send Message",
+            "match": {
+              "location": "DemoContact.click_on_Send_Message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a DemoBlaze Contact functionality",
+    "description": "",
+    "id": "this-is-a-demoblaze-contact-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/DemoContact.feature"
+  }
+]
